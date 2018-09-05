@@ -1,21 +1,21 @@
-=== [Extension Name] ===
+=== Event Tickets Plus Extension: Attendee Data Editor ===
 Contributors: ModernTribe
 Donate link: http://m.tri.be/29
-Tags: events, calendar
+Tags: events, tickets
 Requires at least: 4.5
 Tested up to: 4.9.6
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.2.1
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Brief description of the extension.
+Extends Event Tickets Plus' custom attendee field functionality, by allowing site admins to edit submitted attendee data.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+[Event Tickets Plus](https://theeventscalendar.com/product/wordpress-event-tickets-plus/) allows event organizers to [collect arbitrary data](https://theeventscalendar.com/knowledgebase/collecting-attendee-information/) from attendees. However, once submitted it is not possible or easy to edit it.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and Markdown parsed.
+This extension adds the ability for admins to edit submitted additional field information via the attendee screen.
 
 == Installation ==
 
@@ -37,6 +37,19 @@ We're always interested in your feedback and our [premium forums](https://theeve
 
 == Changelog ==
 
-= [1.0.0] YYYY-MM-DD =
+= [1.2.1] TBD =
+
+* Refactored and moved to Modern Tribe's official Extension Library
+* Bumped minimum required version of Event Tickets Plus
+
+= [1.2.0] 2017-11-06 =
+
+* Improved handling of custom fields
+
+= [1.1.0] 2017-11-06 =
+
+* Improved asset loading
+
+= [1.0.0] 2017-07-15 =
 
 * Initial release
