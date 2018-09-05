@@ -39,8 +39,9 @@ We're always interested in your feedback and our [premium forums](https://theeve
 
 = [1.2.1] TBD =
 
-* Refactored and moved to Modern Tribe's official Extension Library
-* Bumped minimum required version of Event Tickets Plus
+* Refactored and moved to Modern Tribe's official Extension Library [93604]
+* Bumped minimum required version of Event Tickets Plus [93604]
+* Implemented scrolling within the editor modal, so that all fields are accessible even when there are many (our thanks to @juliocam for flagging this and @jentheo for the fix) [112900]
 
 = [1.2.0] 2017-11-06 =
 

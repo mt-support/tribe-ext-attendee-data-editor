@@ -13,6 +13,7 @@
 	border: 1px solid #222;
 	bottom: 10%;
 	left: 10%;
+	overflow: auto;
 	padding: 0.5rem 0.7rem;
 	position: fixed;
 	top: 10%;
