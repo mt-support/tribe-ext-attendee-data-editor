@@ -1,0 +1,58 @@
+# Copyright (C) 2018 Event Tickets Plus Extension: Attendee Data Editor
+# This file is distributed under the same license as the Event Tickets Plus Extension: Attendee Data Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Tickets Plus Extension: Attendee Data Editor "
+"1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tribe-ext-"
+"attendee-data-editor\n"
+"POT-Creation-Date: 2018-09-05 11:57:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: attendee-data-editor.php:73
+msgid ""
+"%s requires PHP version %s or newer to work. Please contact your website "
+"host and inquire about updating PHP."
+msgstr ""
+
+#: src/Main.php:51
+msgid "Save!"
+msgstr ""
+
+#: src/Main.php:52
+msgid "Something went wrong: your attendee data could not be saved."
+msgstr ""
+
+#: src/Main.php:53
+msgid "Successful update!"
+msgstr ""
+
+#: src/Main.php:71
+msgid "Edit details"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Event Tickets Plus Extension: Attendee Data Editor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://theeventscalendar.com/extensions/attendee-data-editor/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Makes it possible and easy for admins to edit custom attendee meta fields."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/1971"
+msgstr ""
