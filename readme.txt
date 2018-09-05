@@ -9,13 +9,13 @@ Stable tag: 1.2.1
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Extends Event Tickets Plus' custom attendee field functionality, by allowing site admins to edit submitted attendee data.
+Extends Event Tickets Plus' custom attendee field functionality, by making it posisble for site admins to edit submitted fields.
 
 == Description ==
 
 [Event Tickets Plus](https://theeventscalendar.com/product/wordpress-event-tickets-plus/) allows event organizers to [collect arbitrary data](https://theeventscalendar.com/knowledgebase/collecting-attendee-information/) from attendees. However, once submitted it is not possible or easy to edit it.
 
-This extension adds the ability for admins to edit submitted additional field information via the attendee screen.
+This extension adds an Edit Details action to each entry in the attendee editor, which can be used to open a modal from which submitted fields can be edited.
 
 == Installation ==
 
