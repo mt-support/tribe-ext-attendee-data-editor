@@ -26,7 +26,7 @@
 // Do not load unless Tribe Common is fully loaded and our class does not yet exist.
 if (
 	class_exists( 'Tribe__Extension' )
-	&& ! class_exists( 'Tribe__Extension__Example' )
+	&& ! class_exists( 'Tribe__Extension__Attendee_Data_Editor' )
 ) {
 	class Tribe__Extension__Attendee_Data_Editor extends Tribe__Extension {
 		const REQUIRED_PHP_VERSION = '5.6';
@@ -45,6 +45,8 @@ if (
 		 * Perform sanity checks and initial setup.
 		 */
 		public function init() {
+			load_plugin_textdomain( 'tribe-ext-attendee-data-editor', false, basename( __DIR__ ) . '/languages/' );
+
 			if ( ! $this->php_version_check() ) {
 				return;
 			}
@@ -52,7 +54,6 @@ if (
 			$this->dir = __DIR__;
 			$this->url = plugin_dir_url( __FILE__ );
 
-			load_plugin_textdomain( 'tribe-ext-attendee-data-editor', false, basename( __DIR__ ) . '/languages/' );
 			$this->class_loader();
 
 			// Avoid syntax errors if this file is loaded under PHP 5.2 or earlier

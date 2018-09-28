@@ -48,9 +48,9 @@ class Main {
 			'attendee-data-editor-script',
 			'attendee_data_editor', [
 				'check' => wp_create_nonce( 'attendee-data-editor' ),
-				'save_btn' => __( 'Save!', 'tribe-ext-attendee-data-editor' ),
-				'oh_oh_on_save' => __( 'Something went wrong: your attendee data could not be saved.', 'tribe-ext-attendee-data-editor' ),
-				'success_on_save' => __( 'Successful update!', 'tribe-ext-attendee-data-editor' ),
+				'save_btn' => esc_html__( 'Save!', 'tribe-ext-attendee-data-editor' ),
+				'uh_oh_on_save' => esc_html__( 'Something went wrong: your attendee data could not be saved.', 'tribe-ext-attendee-data-editor' ),
+				'success_on_save' => esc_html__( 'Successful update!', 'tribe-ext-attendee-data-editor' ),
 			]
 		);
 	}

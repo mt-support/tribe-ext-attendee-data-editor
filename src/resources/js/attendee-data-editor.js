@@ -124,8 +124,7 @@
 			|| 'undefined' === typeof data.success
 			|| ! data.success
 		) {
-			console.error( 'Attendee Data Editor: something went wrong when we tried to save the data' );
-			alert( attendee_data_editor.oh_oh_on_save );
+			alert( attendee_data_editor.uh_oh_on_save );
 			terminate_editor();
 		}
 
