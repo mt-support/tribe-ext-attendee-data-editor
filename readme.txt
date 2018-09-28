@@ -9,7 +9,7 @@ Stable tag: 1.2.1
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Extends Event Tickets Plus' custom attendee field functionality, by making it posisble for site admins to edit submitted fields.
+Extends Event Tickets Plus' custom attendee field functionality, by making it possible for site admins to edit submitted fields.
 
 == Description ==
 
