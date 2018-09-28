@@ -31,6 +31,9 @@ if (
 	class Tribe__Extension__Attendee_Data_Editor extends Tribe__Extension {
 		const REQUIRED_PHP_VERSION = '5.6';
 
+		/** @var Tribe__Autoloader */
+		private $class_loader;
+
 		private $dir = '';
 		private $url = '';
 
