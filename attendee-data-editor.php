@@ -10,7 +10,7 @@
  * Author URI:        http://m.tri.be/1971
  * License:           GPL version 3 or any later version
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       match-the-plugin-directory-name
+ * Text Domain:       tribe-ext-attendee-data-editor
  *
  *     This plugin is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -71,7 +71,7 @@ if (
 					&& current_user_can( 'activate_plugins' )
 				) {
 					$message = '<p>';
-					$message .= sprintf( __( '%s requires PHP version %s or newer to work. Please contact your website host and inquire about updating PHP.', 'match-the-plugin-directory-name' ), $this->get_name(), self::REQUIRED_PHP_VERSION );
+					$message .= sprintf( __( '%s requires PHP version %s or newer to work. Please contact your website host and inquire about updating PHP.', 'tribe-ext-attendee-data-editor' ), $this->get_name(), self::REQUIRED_PHP_VERSION );
 					$message .= sprintf( ' <a href="%1$s">%1$s</a>', 'https://wordpress.org/about/requirements/' );
 					$message .= '</p>';
 
