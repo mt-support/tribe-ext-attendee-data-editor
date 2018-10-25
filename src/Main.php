@@ -1,6 +1,7 @@
 <?php
 namespace Tribe\Extensions\Attendee_Data_Editor;
 
+use Tribe__Tickets_Plus__Meta as Meta_Manager;
 use Tribe__Tickets_Plus__Tickets_View as Tickets_View;
 
 class Main {
@@ -146,7 +147,7 @@ class Main {
 	 * Update the attendee data.
 	 */
 	public function save_fields() {
-		if ( empty( $_POST['check'] ) || ! wp_verify_nonce( $_POST['check'], 'attendee_data_editor' ) ) {
+		if ( empty( $_POST['check'] ) || ! wp_verify_nonce( $_POST['check'], 'attendee-data-editor' ) ) {
 			wp_send_json_error();
 		}
 
@@ -195,7 +196,7 @@ class Main {
 	protected function get_updated_meta_row_html( $product_id, $attendee_id ) {
 		ob_start();
 
-		Tribe__Tickets_Plus__Meta::instance()->render()->table_meta_data( array(
+		Meta_Manager::instance()->render()->table_meta_data( array(
 			'attendee_id' => $attendee_id,
 			'product_id' => $product_id,
 		) );
